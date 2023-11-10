@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&display=swap&family=Jura:wght@300;400;500;600;700&display=swap");
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+body {
+  background-color: #373737;
+}
+
+* {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+header.fullscreen {
+  background-image: url(./assets/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Jura", sans-serif;
+}
+
+.wrapper-knifes .post:hover .wrapper-text p {
+  color: #ff0000;
+  opacity: 100%;
+}
+
+.news-card {
+  background-image: url(./assets/knife-big.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.post-news .content {
+  background-image: url(./assets/instagram-news.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrapping-interesing-knifes .wrapper-post .post {
+  transition: 0.2s all;
+  cursor: pointer;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrapper-title {
+  transition: 0.2s all;
+}
+
+.wrapping-interesing-knifes .wrapper-post .post:hover .wrapper-title {
+  background-color: #c80000;
+  cursor: pointer;
+}
